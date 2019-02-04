@@ -1,0 +1,29 @@
+[  
+{
+    "name": "wegenregister",
+    "type": "ap",
+    "eap": "OSLO-Weg.eap",
+    "diagram": "Wegenregister_applicatieprofiel",
+    "template": "wegenregister-ap.j2",
+    "title": "Wegenregister",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Weg",
+    "config" : "config/config-ap.json",
+    "site": "site-skeleton/wegenregister"
+  },
+  {
+    "name": "weg",
+    "type": "voc",
+    "eap": "OSLO-Weg.eap",
+    "diagram": "OSLO-Weg",
+    "template": "weg-voc.j2",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Weg",
+    "config" : "config/config-voc.json",
+    "site": "site-skeleton"
+  }
+]
