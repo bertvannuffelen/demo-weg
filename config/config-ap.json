@@ -20,6 +20,28 @@
   },
   builtinTags: {
   },
+  ontologyMappings: [
+    {
+      tag: "baseURI",
+      property: "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    {
+      tag: "baseURIabbrev",
+      property: "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    {
+      tag: "issued",
+      property: "http://purl.org/dc/terms/issued",
+      mandatory: true,
+      type: "http://www.w3.org/2001/XMLSchema#date"
+    },
+    {
+      tag: "license",
+      property: "http://purl.org/dc/terms/license",
+      mandatory: true,
+      type: "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+  ],
   internalMappings: [
     {
       tag: "label",
