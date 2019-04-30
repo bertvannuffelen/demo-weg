@@ -26,7 +26,7 @@
     "publication-date": "30-06-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Weg",
-    "config" : "config/config-voc,
+    "config" : "config/config-voc",
 	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
     "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   }
